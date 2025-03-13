@@ -10245,11 +10245,11 @@ input:focus-visible {
     }
 
     .product-card {
-        background: #fff;
+        background: #015551;
         border-radius: 18px;
         overflow: hidden;
         padding: 20px;
-        border: 3px solid #FFAB5B;
+        border: 3px solid #FE4F2D;
         transition: 0.4s ease-in-out;
         position: relative;
         box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
@@ -10266,7 +10266,7 @@ input:focus-visible {
         height: 220px;
         object-fit: cover;
         border-radius: 12px;
-        border: 2px solid #FFAB5B;
+        border: 2px solid #FE4F2D;
         transition: 0.4s;
     }
 
@@ -10277,15 +10277,15 @@ input:focus-visible {
     .product-name {
         margin: 15px 0;
         font-size: 20px;
-        color: #222;
+        color: #fff;
         font-weight: 600;
     }
 
     .buy-now {
-        background: #FFAB5B;
+        background: #FE4F2D;
         color: white;
         padding: 12px;
-        border: 2px solid #FFAB5B;
+        border: 2px solid #FE4F2D;
         cursor: pointer;
         border-radius: 30px;
         font-size: 15px;
