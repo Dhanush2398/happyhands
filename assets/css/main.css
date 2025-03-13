@@ -8143,7 +8143,8 @@ input:focus-visible {
 }
 
 .logo img {
-    max-width: 100px;
+    max-width: 200px;
+    height: auto;
 }
 
 @media screen and (max-width: 424px) {
@@ -8738,7 +8739,7 @@ input:focus-visible {
 }
 
 .footer-item-wrapper {
-    gap: clamp(2rem, 0.715rem + 1.714vw, 2.75rem);
+    gap: clamp(2rem, 2rem + 2vw, 4.75rem);
 }
 
 .footer-item-two-wrapper {
@@ -10160,7 +10161,7 @@ input:focus-visible {
 }
 .about-content h2 {
     font-size: 28px;
-    color: #299E60;
+    color: #FFBF23;
     margin-bottom: 15px;
 }
 .about-content p {
@@ -10170,7 +10171,7 @@ input:focus-visible {
     color: #555;
 }
 .highlight {
-    color: #299E60;
+    color: #FFBF23;
     font-weight: bold;
 }
 .about-image {
