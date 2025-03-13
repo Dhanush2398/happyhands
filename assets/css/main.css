@@ -59,9 +59,9 @@
     --display-one: clamp(2.5rem, -0.0733rem + 6.3692vw, 7.5rem);
   /* Font Size End */
   /* template main color */
-    --main-h: 148;
-    --main-s: 59%;
-    --main-l: 39%;
+    --main-h: 42;
+    --main-s: 100%;
+    --main-l: 57%;
     --main: var(--main-h) var(--main-s) var(--main-l);
   /* template main color */
     --main-two-h: 25;
@@ -8739,7 +8739,7 @@ input:focus-visible {
 }
 
 .footer-item-wrapper {
-    gap: clamp(2rem, 2rem + 2vw, 4.75rem);
+    gap: clamp(2rem, 1rem + 1vw, 3.75rem);
 }
 
 .footer-item-two-wrapper {
