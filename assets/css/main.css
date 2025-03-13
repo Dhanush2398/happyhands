@@ -10245,7 +10245,7 @@ input:focus-visible {
     }
 
     .product-card {
-        background: #015551;
+        background: #057b75;
         border-radius: 18px;
         overflow: hidden;
         padding: 20px;
@@ -10258,7 +10258,7 @@ input:focus-visible {
     .product-card:hover {
         transform: translateY(-8px);
         box-shadow: 0 14px 24px rgba(0, 0, 0, 0.2);
-        border-color: #e6954a;
+        border-color: #FE4F2D;
     }
 
     .product-card img {
@@ -10301,8 +10301,8 @@ input:focus-visible {
 
     .buy-now:hover {
         background: white;
-        color: #FFAB5B;
-        border: 2px solid #FFAB5B;
+        color: #FE4F2D;
+        border: 2px solid #FE4F2D;
         transform: scale(1.05);
         box-shadow: 0 6px 14px rgba(255, 171, 91, 0.7);
     }
