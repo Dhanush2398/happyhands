@@ -8143,7 +8143,7 @@ input:focus-visible {
 }
 
 .logo img {
-    max-width: 200px;
+    max-width: 100px;
 }
 
 @media screen and (max-width: 424px) {
@@ -9504,9 +9504,7 @@ input:focus-visible {
 }
 /* ========================= Brand Css End ======================== */
 /* Shipping Css Start */
-.shipping-item {
-    padding: clamp(1.5rem, 0.891rem + 1.268vw, 2rem) clamp(1.5rem, -3.746rem + 6vw, 3.375rem);
-}
+
 
 /* Shipping Css End */
 /* ======================= Newsletter Css Start =========================== */
