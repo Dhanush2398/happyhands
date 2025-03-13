@@ -3404,7 +3404,7 @@ input:focus-visible {
 }
 
 .py-120 {
-    padding-block: var(--size-120) !important;
+    padding-block: var(--size-48) !important;
 }
 
 .py-144 {
@@ -8654,7 +8654,7 @@ input:focus-visible {
 /* Mobile Menu Sidebar Start */
 .mobile-menu {
     position: fixed;
-    background-color: hsl(var(--white));
+    background-color: #FFF5E4;
     width: 300px;
     height: 100vh;
     overflow-y: auto;
@@ -9314,11 +9314,13 @@ input:focus-visible {
     height: 232px;
     width: 100%;
     transition: 0s !important;
+    background-color: #ADB2D4;
 }
 
 .product-card__thumb img {
-    max-width: 160px;
+    max-width: 200px;
     width: 100%;
+    height: 200px;
     transition: 0.2s linear;
 }
 
@@ -10152,7 +10154,7 @@ input:focus-visible {
 }
 .about-content {
     max-width: 900px;
-    background: #fff;
+    background: #F2E2B1;
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
@@ -10200,3 +10202,12 @@ input:focus-visible {
     }
 }
 
+
+.bottom-footer p{
+    color: #fff;
+    }
+    
+    
+    .bottom-footer a{
+        color: #FFBE22;
+        }
