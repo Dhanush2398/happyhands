@@ -9990,7 +9990,8 @@ input:focus-visible {
 }
 
 .table-product__thumb img {
-    max-width: 75px;
+    max-width: 175px;
+    max-height: 130px;
 }
 
 /* ========================== Cart Page Css End ============================ */
@@ -10157,7 +10158,7 @@ input:focus-visible {
 }
 .about-content {
     max-width: 900px;
-    background: #F2E2B1;
+    background: #299E60;
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
@@ -10173,7 +10174,7 @@ input:focus-visible {
     font-size: 16px;
     line-height: 1.6;
     margin-bottom: 15px;
-    color: #555;
+    color: #fff;
 }
 .highlight {
     color: #FFBF23;
@@ -10220,7 +10221,7 @@ input:focus-visible {
         justify-content: center;
         align-items: center;
         min-height: 100vh;
-        background: #FAD0C4;
+        background:#8CB9BD;
         padding: 40px 20px;
     }
      .product-wrapper {
@@ -10245,7 +10246,7 @@ input:focus-visible {
     }
 
     .product-card {
-        background: #057b75;
+        background: #117d78;
         border-radius: 18px;
         overflow: hidden;
         padding: 20px;
