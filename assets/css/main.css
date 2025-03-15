@@ -8149,12 +8149,12 @@ input:focus-visible {
 
 .logo img {
     max-width: 200px;
-    height: auto;
+    height: 110px;
 }
 
 @media screen and (max-width: 424px) {
     .logo img {
-        max-width: 148px;
+        max-width: 128px;
     }
 }
 /* Header Menu and Submenu Css Start */
