@@ -223,7 +223,7 @@
 <div class="breadcrumb mb-0 py-26 bg-main-two-50">
     <div class="container container-lg">
         <div class="breadcrumb-wrapper flex-between flex-wrap gap-16">
-            <h6 class="mb-0">My Account</h6>
+            <h6 class="mb-0">Login</h6>
             <ul class="flex-align gap-8 flex-wrap">
                 <li class="text-sm">
                     <a href="index.html" class="text-gray-900 flex-align gap-8 hover-text-main-600">
@@ -234,7 +234,7 @@
                 <li class="flex-align">
                     <i class="ph ph-caret-right"></i>
                 </li>
-                <li class="text-sm text-main-600"> Account </li>
+                <li class="text-sm text-main-600">Login</li>
             </ul>
         </div>
     </div>
@@ -246,42 +246,42 @@
         <div class="container container-lg" style="max-width: 1200px; width: 100%;">
             <form action="#">
                 <div class="row gy-4">
-                    <!-- Register Card Start -->
-                    <div class="col-xl-6" style="margin: auto;">
-                        <div class="border border-gray-100 hover-border-main-600 transition-1 rounded-16 px-24 py-40"
-                            style="border: 2px solid #FFAB5B; padding: 40px; border-radius: 16px; box-shadow: 0px 0px 10px rgba(0,0,0,0.1); background: #fff;">
-                            <h6 class="text-xl mb-32">Register</h6>
+                     <!-- Login Card Start -->
+                     <div class="col-xl-6 pe-xl-5" style="margin: auto;">
+                        <div class="border border-gray-100 hover-border-main-600 transition-1 rounded-16 px-24 py-40 h-100" 
+                             style="border: 2px solid #FFAB5B; padding: 40px; border-radius: 16px;  box-shadow: 0px 0px 10px rgba(0,0,0,0.1); background: #fff;">
+                            <h6 class="text-xl mb-32">Login</h6>
                             <div class="mb-24">
-                                <label for="usernameTwo" class="text-neutral-900 text-lg mb-8 fw-medium">Username <span class="text-danger">*</span></label>
-                                <input type="text" class="common-input" id="usernameTwo" placeholder="Write a username"
-                                    style="width: 100%; padding: 10px; border: 2px solid #FFAB5B; border-radius: 8px;">
+                                <label for="username" class="text-neutral-900 text-lg mb-8 fw-medium">Username or email address <span class="text-danger">*</span> </label>
+                                <input type="text" class="common-input" id="username" placeholder="First Name"
+                                       style="width: 100%; padding: 10px; border: 2px solid #FFAB5B; border-radius: 8px;">
                             </div>
                             <div class="mb-24">
-                                <label for="emailTwo" class="text-neutral-900 text-lg mb-8 fw-medium">Email address <span class="text-danger">*</span></label>
-                                <input type="email" class="common-input" id="emailTwo" placeholder="Enter Email Address"
-                                    style="width: 100%; padding: 10px; border: 2px solid #FFAB5B; border-radius: 8px;">
-                            </div>
-                            <div class="mb-24">
-                                <label for="enter-password" class="text-neutral-900 text-lg mb-8 fw-medium">Password <span class="text-danger">*</span></label>
+                                <label for="password" class="text-neutral-900 text-lg mb-8 fw-medium">Password</label>
                                 <div class="position-relative">
-                                    <input type="password" class="common-input" id="enter-password" placeholder="Enter Password"
-                                        style="width: 100%; padding: 10px; border: 2px solid #FFAB5B; border-radius: 8px;">
+                                    <input type="password" class="common-input" id="password" placeholder="Enter Password" value="password"
+                                           style="width: 100%; padding: 10px; border: 2px solid #FFAB5B; border-radius: 8px;">
                                 </div>
                             </div>
-                            <div class="my-48">
-                                <p class="text-gray-500">Already have an account?
-                                    <a href="login.html" class="text-main-600 text-decoration-underline"> Login</a>.
-                                </p>
+                            <div class="mb-24 mt-48">
+                                <div class="flex-align gap-48 flex-wrap">
+                                    <button type="submit" class="btn btn-main py-18 px-40"
+                                            style="width: 100%; padding: 12px; background: #FFAB5B; border: none; border-radius: 8px; color: white; font-size: 16px; cursor: pointer;">
+                                        Log in
+                                    </button>
+                                </div>
                             </div>
                             <div class="mt-48">
-                                <button type="submit" class="btn btn-main py-18 px-40"
-                                    style="width: 100%; padding: 12px; background: #FFAB5B; border: none; border-radius: 8px; color: white; font-size: 16px; cursor: pointer;">
-                                    Register
-                                </button>
+                                <a href="#" class="text-danger-600 text-sm fw-semibold hover-text-decoration-underline">Forgot your password?</a>
+                            </div>
+                            <div class="my-48">
+                                <p class="text-gray-500">Don't have an account? 
+                                    <a href="account.html" class="text-main-600 text-decoration-underline"> Sign Up</a>.
+                                </p>
                             </div>
                         </div>
                     </div>
-                    <!-- Register Card End -->
+                    <!-- Login Card End -->
                 </div>
             </form>
         </div>
