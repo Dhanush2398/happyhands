@@ -8148,13 +8148,14 @@ input:focus-visible {
 }
 
 .logo img {
-    max-width: 200px;
-    height: 110px;
+    max-width: 100%;
+    height: 90px;
 }
 
 @media screen and (max-width: 424px) {
     .logo img {
-        max-width: 128px;
+       width: 100%;
+       height: auto;
     }
 }
 /* Header Menu and Submenu Css Start */
@@ -8758,8 +8759,8 @@ input:focus-visible {
 .footer-item__logo a img {
     width: 100%;
     height: 100%;
-    max-width: 190px;
-    max-height: 150px;
+    max-width: 290px;
+    max-height:auto;
 }
 
 .body-bottom-bg {
@@ -10221,7 +10222,7 @@ input:focus-visible {
         justify-content: center;
         align-items: center;
         min-height: 100vh;
-        background:#8CB9BD;
+        background:#ee6c4d;
         padding: 40px 20px;
     }
      .product-wrapper {
@@ -10233,7 +10234,6 @@ input:focus-visible {
     .product-title {
         font-size: 28px;
         font-weight: bold;
-        color: #444;
         margin-bottom: 30px;
         text-transform: uppercase;
         letter-spacing: 1.5px;
@@ -10246,7 +10246,7 @@ input:focus-visible {
     }
 
     .product-card {
-        background: #117d78;
+        background: #fff3b0;
         border-radius: 18px;
         overflow: hidden;
         padding: 20px;
@@ -10278,7 +10278,6 @@ input:focus-visible {
     .product-name {
         margin: 15px 0;
         font-size: 20px;
-        color: #fff;
         font-weight: 600;
     }
 
